@@ -1,0 +1,29 @@
+{
+  "name": "puhelinluettelobackend",
+  "version": "1.0.0",
+  "description": "\"backend for puhelinluettelo\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sampyy/fullStackTeht3.git"
+  },
+  "author": "Sami T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sampyy/fullStackTeht3/issues"
+  },
+  "homepage": "https://github.com/Sampyy/fullStackTeht3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
