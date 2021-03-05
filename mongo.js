@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+
 const password = process.argv[2]
 
 if (process.argv.length<3) {
@@ -36,6 +37,7 @@ if (process.argv.length==3) {
       })
     mongoose.connection.close()
   })
+  
   
 
 }
